@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khai báo y tế</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet"
+        href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css">
+
+
+
+</head>
+
+<body>
+    <fieldset>
+        <form action="#" method="get" id="form">
+            <p style="margin-bottom:20px"><strong>Chọn ngôn ngữ để khai báo y tế /Select the language to declare
+                    health:</strong></p>
+            <div>
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/vi-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/en-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/china-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/ko-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/it-big.jpg">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/cam-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/ru-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/es-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/fr-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/App/images/Language/lo-big.png">
+                <input class="img" type="image" src="https://tokhaiyte.vn/upload/2001432/20200311/jp-big_63de0.png">
+            </div>
+            <p id="title"><strong>TỜ KHAI Y TẾ ĐỐI VỚI NGƯỜI NHẬP CẢNH</strong></p>
+            <p id="heading">ĐÂY LÀ TÀI LIỆU QUAN TRỌNG, THÔNG TIN CỦA ANH/CHỊ SẼ GIÚP CƠ QUAN Y TẾ LIÊN LẠC KHI CẦN
+                THIẾT ĐỂ PHÒNG CHỐNG DỊCH BỆNH TRUYỀN NHIỄM </p>
+            <p id="recom">Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và có thể xử lý hình sự</p>
+            <div id="subgate">
+                <div id="subject">
+                    <p>Đối tượng<span><i>(*)</i></span></p>
+                    <select name="select" class="select" required="Bạn chưa chọn đối tượng">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Chuyên gia</option>
+                        <option value="3">Người Việt Nam</option>
+                        <option value="4">Học sinh/Sinh viên quốc tế</option>
+                        <option value="5">Khác</option>
+                    </select>
+                </div>
+                <div id="gate">
+                    <p>Cửa khẩu<span><i>(*)</i></span></p>
+                    <select name="select" class="select" id="select" required="Bạn chưa chọn cửa khẩu">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Bà Rịa Vũng Tàu</option>
+                        <option value="3">Đồng Nai</option>
+                        <option value="4">Bình Định</option>
+                        <option value="5">A Pa Chải</option>
+                    </select>
+                </div>
+            </div>
+            <div id="userName">
+                <p>Họ tên (ghi chữ IN HOA)<span><i>(*)</i></span></p>
+                <input type="text" name="name" id="name" required="Bạn chưa nhập họ tên" autocomplete="off">
+            </div>
+            <div id="info">
+                <div id="dob">
+                    <p>Ngày tháng năm sinh<span><i>(*)</i></span></p>
+                    <select name="date" id="date">
+                        <option value="1">-Ngày-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month" id="month" class="dob">
+                        <option value="1">-Tháng-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="year" id="year" class="dob">
+                        <option value="Năm">Năm</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990" selected="1">1990</option>
+                    </select>
+                </div>
+                <div id="gen_na">
+                    <div id="gender">
+                        <p>Giới tính<span><i>(*)</i></span></p>
+                        <select name="gender" class="gen_na" required="Bạn chưa chọn giới tính">
+                            <option value="1">-Chọn-</option>
+                            <option value="2">Nam</option>
+                            <option value="3">Nữ</option>
+                            <option value="3">Khác</option>
+                        </select>
+                    </div>
+                    <div id="nation">
+                        <p>Quốc gia<span><i>(*)</i></span></p>
+                        <select name="nation" class="gen_na">
+                            <option value="1">Việt Nam</option>
+                            <option value="2">Lào</option>
+                            <option value="3">Trung Quốc</option>
+                            <option value="4">Campuchia</option>
+                            <option value="5">Zambia</option>
+                            <option value="6">Zimbabwe</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p style="margin-top: 30px;">Số hộ chiếu hoặc số CMND hoặc giấy thông hành hợp pháp
+                    khác<span><i>(*)</i></span></p>
+                <input type="text" name="id" id="id" required="Bạn chưa nhập CMND,hộ chiếu" autocomplete="off" />
+            </div>
+            <div id="travelinfo">
+                <p>Thông tin đi lại<span><i>(*)</i></span></p>
+                <div>
+
+                    <label for="travel1">
+                        <input type="radio" name="travel" class="travel" id="travel1" 
+                            value="1" onclick="showInfo()"/><span class="vehicle">Tàu bay</span>
+                    </label>
+
+                    <label for="travel2">
+                        <input type="radio" name="travel" class="travel" id="travel2" 
+                            value="2" onclick="showInfo()"/><span class="vehicle">Tàu thuyền</span>
+                    </label>
+
+                    <label for="travel3">
+                        <input type="radio" name="travel" class="travel" id="travel3"
+                            value="3" onclick="showInfo()"/><span class="vehicle">Ô tô</span>
+                    </label>
+                    
+                    <label for="travel4">
+                        <input type="radio" name="travel" class="travel" id="travel4"
+                            value="4" onclick="showInfo()"/><span class="vehicle">Khác (Ghi rõ)</span>
+                    </label>
+                </div>
+                <div id="infoVehicle" style="display: none;">
+                    <input type="text" class="infoVehicle">
+                </div>
+            </div>
+            <div id="vel_seat">
+                <div id="numberVehicle">
+                    <p>Số hiệu phương tiện</p>
+                    <input type="text" name="numberVehicle" placeholder="VD: VN123" class="vel_seat"
+                        autocomplete="off" />
+                </div>
+                <div id="seats">
+                    <p>Số ghế</p>
+                    <input type="text" name="numberSeats" class="vel_seat" autocomplete="off" />
+                </div>
+            </div>
+            <div id="dep_entryDate">
+                <div id="dob">
+                    <p>Ngày khởi hành<span><i>(*)</i></span></p>
+                    <select name="date" id="date">
+                        <option value="1">-Ngày-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25" selected="1">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month" id="month" class="dob">
+                        <option value="1">-Tháng-</option>
+                        <option value="1">1</option>
+                        <option value="2" selected="1">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="year" id="year" class="dob">
+                        <option value="Năm">Năm</option>
+                        <option value="2022" selected="1">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                    </select>
+                </div>
+                <div id="entryDate">
+                    <p>Ngày nhập cảnh<span><i>(*)</i></span></p>
+                    <select name="date" id="date">
+                        <option value="1">-Ngày-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25" selected="1">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="month" id="month" class="entryDate">
+                        <option value="1">-Tháng-</option>
+                        <option value="1">1</option>
+                        <option value="2" selected="1">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="year" id="year" class="entryDate">
+                        <option value="Năm">Năm</option>
+                        <option value="2022" selected="1">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                    </select>
+                </div>
+            </div>
+            <p><strong>Địa điểm khởi hành (tỉnh/quốc gia)</strong></p>
+            <div id="nation_provin">
+                <div id="_nation1">
+                    <p>Quốc gia/ Vùng lãnh thổ <span><i>(*)</i></span></p>
+                    <select name="nation1" class="nation_provin" required="Bạn chưa chọn quốc gia">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Việt Nam</option>
+                        <option value="3">Mỹ</option>
+                        <option value="4">Nhật Bản</option>
+                        <option value="5">Hàn Quốc</option>
+                    </select>
+                </div>
+                <div id="_province">
+                    <p>Tỉnh<span><i>(*)</i></span></p>
+                    <input type="text" class="nation_provin" required="Bạn chưa nhập tỉnh" />
+                </div>
+            </div>
+            <p><strong>Địa điểm nơi đến (tỉnh/quốc gia)</strong></p>
+            <div id="nation_provin">
+                <div id="_nation1">
+                    <p>Quốc gia/ Vùng lãnh thổ <span><i>(*)</i></span></p>
+                    <select name="nation1" class="nation_provin" required="Bạn chưa chọn quốc gia">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Việt Nam</option>
+                        <option value="3">Mỹ</option>
+                        <option value="4">Nhật Bản</option>
+                        <option value="5">Hàn Quốc</option>
+                    </select>
+                </div>
+                <div id="_province">
+                    <p>Tỉnh<span><i>(*)</i></span></p>
+                    <input type="text" class="nation_provin" required="Bạn chưa nhập tỉnh" />
+                </div>
+            </div>
+            <div>
+                <p>Trong vòng 14 ngày qua, Anh/Chị có đến quốc gia/vùng lãnh thổ nào? <span><i>(*)</i></span></p>
+                <textarea cols="100%" rows="3" id="declare" autocomplete="off"></textarea>
+            </div>
+            <p style="margin-top:20px"><strong>Nơi lưu trú sau cách ly tập trung</strong></p>
+            <div id="address">
+                <div id="city">
+                    <p>Tỉnh / thành <span><i>(*)</i></span></p>
+                    <select name="city" class="address" required="Bạn chưa chọn tỉnh / thành">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Đà Nẵng</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Thành phố Hồ Chí Minh</option>
+                        <option value="5">Hà Nội</option>
+
+                    </select>
+                </div>
+                <div id="district">
+                    <p>Quận / huyện <span><i>(*)</i></span></p>
+                    <select name="district" class="address" required="Bạn chưa chọn quận / huyện">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Đà Nẵng</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Thành phố Hồ Chí Minh</option>
+                        <option value="5">Hà Nội</option>
+                    </select>
+                </div>
+                <div id="ward">
+                    <p>Phường / xã <span><i>(*)</i></span></p>
+                    <select name="ward" class="address" required="Bạn chưa chọn phường / xã">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Đà Nẵng</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Thành phố Hồ Chí Minh</option>
+                        <option value="5">Hà Nội</option>
+                    </select>
+                </div>
+            </div>
+            <div id="_addressAfter">
+                <p>Địa chỉ lưu trú sau cách ly <span><i>(*)</i></span></p>
+                <input type="text" id="addressAfter" required="Bạn chưa nhập địa chỉ lưu trú sau sách ly">
+            </div>
+            <p style="margin-top: 40px;"><strong>Địa chỉ liên lạc tại Việt Nam</strong></p>
+            <div id="address1">
+                <div id="city1">
+                    <p>Tỉnh / thành <span><i>(*)</i></span></p>
+                    <select name="city1" class="address1" required="Bạn chưa chọn tỉnh / thành">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Đà Nẵng</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Thành phố Hồ Chí Minh</option>
+                        <option value="5">Hà Nội</option>
+
+                    </select>
+                </div>
+                <div id="district1">
+                    <p>Quận / huyện <span><i>(*)</i></span></p>
+                    <select name="district" class="address1" required="Bạn chưa chọn quận / huyện">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Đà Nẵng</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Thành phố Hồ Chí Minh</option>
+                        <option value="5">Hà Nội</option>
+                    </select>
+                </div>
+                <div id="ward1">
+                    <p>Phường / xã <span><i>(*)</i></span></p>
+                    <select name="ward" class="address1" required="Bạn chưa chọn phường / xã">
+                        <option value="1">-Chọn-</option>
+                        <option value="2">Đà Nẵng</option>
+                        <option value="3">Huế</option>
+                        <option value="4">Thành phố Hồ Chí Minh</option>
+                        <option value="5">Hà Nội</option>
+                    </select>
+                </div>
+            </div>
+            <div id="_addressVN">
+                <p>Địa chỉ nơi ở tạ Việt Nam <span><i>(*)</i></span></p>
+                <input type="text" id="addressVN" required="Bạn chưa nhập địa chỉ">
+            </div>
+            <p id="note"><i>Số điện thoại bạn sẽ sử dụng tại Việt Nam (Là số Roaming hoặc số Việt Nam)</i></p>
+            <div id="tel_email">
+                <div id="tel">
+                    <p>Điện thoại<span><i>(*)</i></span></p>
+                    <input type="number" name="tel" class="tel_email" required="Bạn chưa nhập số điện thoại"
+                        autocomplete="off" />
+                </div>
+                <div id="email">
+                    <p>Email</p>
+                    <input type="text" name="email" class="tel_email" autocomplete="off" />
+                </div>
+            </div>
+            <p style="margin-top:20px"><strong>Trong vòng 14 ngày (tính đến thời điểm làm thủ tục xuất cảnh, nhập cảnh,
+                    quá cảnh) Anh/Chị có
+                    thấy xuất hiện dấu hiệu nào sau đây không? <span><i>(*)</i></span></strong></p>
+            <table border="1" id="table1">
+                <thead>
+                    <tr style="height: 40px;background-color: #f0f2f5;">
+                        <th>Triệu chứng</th>
+                        <th>Có</th>
+                        <th>Không</th>
+                        <th>Triệu chứng</th>
+                        <th>Có</th>
+                        <th>Không</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sốt<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="fever">
+                        </td>
+                        <td>
+                            <input type="radio" name="fever">
+                        </td>
+                        <td>Nôn/Buồn nôn<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="vomit">
+                        </td>
+                        <td>
+                            <input type="radio" name="vomit">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ho<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="cough">
+                        </td>
+                        <td>
+                            <input type="radio" name="cough">
+                        </td>
+                        <td>Tiêu chảy<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="diarrhea">
+                        </td>
+                        <td>
+                            <input type="radio" name="diarrhea">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Khó thở<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="sultry">
+                        </td>
+                        <td>
+                            <input type="radio" name="sultry">
+                        </td>
+                        <td>Xuất huyết ngoài da<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="bleeding">
+                        </td>
+                        <td>
+                            <input type="radio" name="bleeding">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Đau họng<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="soreThroat">
+                        </td>
+                        <td>
+                            <input type="radio" name="soreThroat">
+                        </td>
+                        <td>Nổi ban ngoài da<span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="rash">
+                        </td>
+                        <td>
+                            <input type="radio" name="rash">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-top:40px"><strong>Lịch sử phơi nhiễm: Trong vòng 14 ngày qua, Anh/Chị có
+                    <span><i>(*)</i></span> </strong></p>
+            <table border="1" id="table2">
+                <thead>
+                    <tr style="height:40px;background-color:#f0f2f5;">
+                        <th></th>
+                        <th>Có</th>
+                        <th>Không</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Đến trang trại chăn nuôi / chợ buôn bán động vật sống / cơ sở giết mổ động vật / tiếp xúc
+                            động vật <span><i>(*)</i></span></td>
+                        <td>
+                            <input type="radio" name="action1">
+                        </td>
+                        <td>
+                            <input type="radio" name="action1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Tiếp xúc gần (< 2m) với người mắc bệnh viêm đường hô hấp do nCoV <span><i>(*)</i></span>
+                        </td>
+                        <td>
+                            <input type="radio" name="action2">
+                        </td>
+                        <td>
+                            <input type="radio" name="action2">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-top:20px"><strong>Chọn cơ sở cách ly <span><i>(*)</i></span></strong></p>
+            <p style="margin-top:15px"><input type="radio" name="isolationFacility"> <span class="isolationFacility">Cơ
+                    sở cách ly tập
+                    trung</span> </p>
+            <p style="margin-top:15px"><input type="radio" name="isolationFacility"> <span class="isolationFacility">Cơ
+                    sở cách ly tự chọn</span>
+            </p>
+            <p style="margin-top:15px"> <input type="radio" name="isolationFacility"> <span
+                    class="isolationFacility">Khác</span></p>
+            <p style="margin-top:20px"><strong>Thông tin tiêm chủng Covid-19</strong></p>
+            <table border="1" id="table3">
+                <thead>
+                    <tr>
+                        <td>Mũi số</td>
+                        <td>Tên vắc xiêm</td>
+                        <td>Ngày tiêm</td>
+                        <td>Cơ sở y tế tiêm</td>
+                        <td>Quốc gia</td>
+                        <td>File chứng nhận tiêm</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="display:none">
+                        <td>1</td>
+                        <td>
+                            <select name="nameVacxin" class="vaccinInfo">
+                                <option>-Chọn-</option>
+                                <option value="1">Verocell</option>
+                                <option value="2">Astra</option>
+                                <option value="3">Abdala</option>
+                                <option value="4">Moderma</option>
+                                <option value="5">Hayat-Vax</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="date" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <input type="text" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <select name="" class="vaccinInfo">
+                                <option value="">-Chọn-</option>
+                                <option value="">Việt Nam</option>
+                                <option value="">Trung Quốc</option>
+                                <option value="">Hàn Quốc</option>
+                                <option value="">Nhật Bản</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="file" multiple="image" class="vaccinInfo" style="line-height: 35px;">
+                        </td>
+                    </tr>
+                    <tr style="display:none">
+                        <td>2</td>
+                        <td>
+                            <select name="nameVacxin" class="vaccinInfo">
+                                <option>-Chọn-</option>
+                                <option value="1">Verocell</option>
+                                <option value="2">Astra</option>
+                                <option value="3">Abdala</option>
+                                <option value="4">Moderma</option>
+                                <option value="5">Hayat-Vax</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="date" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <input type="text" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <select name="" class="vaccinInfo">
+                                <option value="">-Chọn-</option>
+                                <option value="">Việt Nam</option>
+                                <option value="">Trung Quốc</option>
+                                <option value="">Hàn Quốc</option>
+                                <option value="">Nhật Bản</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="file" multiple="image" class="vaccinInfo" style="line-height: 35px;">
+                        </td>
+                    </tr>
+                    <tr style="display:none">
+                        <td>3</td>
+                        <td>
+                            <select name="nameVacxin" class="vaccinInfo">
+                                <option>-Chọn-</option>
+                                <option value="1">Verocell</option>
+                                <option value="2">Astra</option>
+                                <option value="3">Abdala</option>
+                                <option value="4">Moderma</option>
+                                <option value="5">Hayat-Vax</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="date" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <input type="text" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <select name="" class="vaccinInfo">
+                                <option value="">-Chọn-</option>
+                                <option value="">Việt Nam</option>
+                                <option value="">Trung Quốc</option>
+                                <option value="">Hàn Quốc</option>
+                                <option value="">Nhật Bản</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="file" multiple="image" class="vaccinInfo" style="line-height: 35px;">
+                        </td>
+                    </tr>
+                    <tr style="display:none">
+                        <td>4</td>
+                        <td>
+                            <select name="nameVacxin" class="vaccinInfo">
+                                <option>-Chọn-</option>
+                                <option value="1">Verocell</option>
+                                <option value="2">Astra</option>
+                                <option value="3">Abdala</option>
+                                <option value="4">Moderma</option>
+                                <option value="5">Hayat-Vax</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="date" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <input type="text" class="vaccinInfo">
+                        </td>
+                        <td>
+                            <select name="" class="vaccinInfo">
+                                <option value="">-Chọn-</option>
+                                <option value="">Việt Nam</option>
+                                <option value="">Trung Quốc</option>
+                                <option value="">Hàn Quốc</option>
+                                <option value="">Nhật Bản</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="file" multiple="image" class="vaccinInfo" style="line-height: 35px;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="addInjec" onclick="show_toolbar()">Thêm mũi tiêm </div>
+            <p style="margin-top:40px"><strong>Thông tin xét nghiệm Covid-19</strong></p>
+            <div id="testInfo">
+                <div id="testInfoA">
+                    <div id="_testResult">
+                        <p>Kết quả xét nghiệm</p>
+                        <select name="" id="testResult">
+                            <option value="">-Chon-</option>
+                            <option value="">Dương tính</option>
+                            <option value="">Âm tính</option>
+                        </select>
+                    </div>
+                    <div id="resultDate">
+                        <p>Ngày kết quả</p>
+                        <input type="date" class="testInfo">
+                    </div>
+                    <div id="typeTest">
+                        <p>Loại xét nghiệm</p>
+                        <select name="" class="testInfo">
+                            <option value="">-Chon-</option>
+                            <option value="">Test nhanh</option>
+                            <option value="">PCR</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="testInfoB">
+                    <div id="_nation2">
+                        <p>Quốc gia</p>
+                        <select name="" id="nation2">
+                            <option value="">-Chon-</option>
+                            <option value="">Việt Nam</option>
+                            <option value="">Mỹ</option>
+                            <option value="">Hàn Quốc</option>
+                            <option value="">Nhật Bản</option>
+                            <option value="">Trung Quốc</option>
+                        </select>
+                    </div>
+                    <div id="_resultFile">
+                        <p>File chứng nhận kết quả</p>
+                        <input type="file" multiple="image" id="resultFile">
+                    </div>
+                </div>
+            </div>
+            <p style="margin-top:40px"><strong>Thông tin chứng nhận khỏi bệnh Covid-19</strong></p>
+            <div id="certification_Info">
+                <div id="certification_InfoA">
+                    <div id="healDay">
+                        <p>Ngày khỏi bệnh</p>
+                        <input type="date" class="certification_Info">
+                    </div>
+                    <div id="facility">
+                        <p>Cơ sở điều trị</p>
+                        <input type="text" class="certification_Info">
+                    </div>
+                </div>
+                <div id="certification_InfoB">
+                    <div id="nation3">
+                        <p>Quốc gia</p>
+                        <select name="" class="certification_Info">
+                            <option value="">-Chọn-</option>
+                            <option value="">Việt Nam</option>
+                            <option value="">Trung Quốc</option>
+                            <option value="">Mỹ</option>
+                            <option value="">Hàn Quốc</option>
+                            <option value="">Nhật Bản</option>
+                        </select>
+                    </div>
+                    <div id="fileResult1">
+                        <p>File chứng nhận</p>
+                        <input type="file" multiple="image" class="certification_Info">
+                    </div>
+                </div>
+            </div>
+            <div id="signUp">
+                <p><strong>Đăng ký sim sử dụng tại Việt Nam</strong></p>
+            </div>
+            <div id="listSim">
+                <ul>
+                    <li>
+                        <a href="#" title="Viettel">VIETTEL</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Vinaphone">VINAPHONE</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Mobifone">MOBIPHONE</a>
+                    </li>
+                </ul>
+            </div>
+            <p style="margin-top:20px">Mã bảo mật <span><i>(*)</i></span></p>
+            <div id="capSecuCode">
+                <div id="capcha">
+                    <img src="https://tokhaiyte.vn/api/Common/Captcha/getCaptcha?returnType=image&site=2001432&width=150&height=50&t=1645870269049"
+                        alt="Mã Captcha" width="150px" height="50px" style="margin-top:5px">
+                    <div id="redoAlt">
+                        <span id="redo_alt" onclick="reload()"><i class="fas fa-redo-alt"></i></span>
+                    </div>
+                </div>
+                <div class="securityCode">
+                    <input type="text" placeholder="Nhập mã bảo mật tại đây" id="securityCode" autocomplete="off">
+                </div>
+            </div>
+            <p style="color: red;margin-top:40px">Dữ liệu bạn cung cấp hoàn toàn bảo mật và chỉ phục vụ cho việc phòng
+                chống dịch, thuộc quản lý của
+                Ban chỉ đạo quốc gia về Phòng chống dịch Covid-19. Khi bạn nhấn nút "Gửi" là bạn đã hiểu và đồng ý.
+            </p>
+            <div id="divSubmit">
+                <div id="submit">
+                    <input type="submit" value="GỬI TỜ KHAI" id="send" style="cursor: pointer;">
+                </div>
+            </div>
+        </form>
+    </fieldset>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,554 @@
+.element {
+    all: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+input, select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.img {
+    margin-left: 10px;
+    border: 2px solid #e6e6e6;
+    padding-left: 0px;
+}
+fieldset {
+    margin:20px 100px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%), 0 8px 16px rgb(0 0 0 / 30%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+form {
+    margin: 10px 10px;
+}
+
+#title {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#recom {
+    text-align: center;
+    color: red;
+    font-size: 13px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subgate {
+    height: 100px;
+}
+
+#subject {
+    width: 550px;
+    float: left;
+    margin-top: 50px;
+}
+
+#gate {
+    width: 550px;
+    float: right;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.select {
+    height: 35px;
+    width: 550px;
+    margin-top: 5px;
+    margin-right: 0px;
+}
+
+span {
+    margin-left: 5px;
+    color: red;
+}
+
+#userName {
+    margin-top: 20px;
+}
+
+#name {
+    height: 35px;
+    width: 100%;    
+    margin-top: 5px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+
+#info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 58px;
+}
+
+#dob {
+    width: 560px;
+    float: left;;
+    
+}
+
+#gen_na , #entryDate {
+    width: 550px;
+    float: right;
+    margin-left: 15px;
+}
+
+#gender {
+    display: inline-block;
+    width: 265px;
+}
+
+#nation {
+    display: inline-block;
+    width: 265px;
+    margin-left: 15px;
+}
+
+.dob {
+    height: 35px;
+    width: 170px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#date {
+    height: 35px;
+    width: 170px;
+    margin-top: 5px;
+}
+
+.gen_na {
+    width: 265px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#id {
+    margin-top:5px;
+    width: 100%;
+    height: 35px;
+    padding: 10px 10px;
+}
+
+#travelinfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.travel {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.vehicle {
+    color: black;
+}
+
+.infoVehicle {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+}
+
+#numberVehicle, #tel {
+    float: left;
+    width: 550px;
+}
+
+#vel_seat, #tel_email {
+   height: 58px;
+}
+
+#seats, #email {
+    float: right;
+    width: 550px;
+}
+
+.vel_seat, .tel_email {
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+    padding: 10px 10px;
+}
+
+.entryDate {
+    height: 35px;
+    width: 170px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#dep_entryDate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 58px;
+}
+
+#nation_provin {
+    height: 58px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#_nation1{
+    float: left;
+    width: 550px;
+}
+
+#_province {
+    float: right;
+    width: 550px;
+}
+
+.nation_provin {
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+}
+
+#declare {
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#address, #address1 {
+    height: 58px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#city, #city1  {
+    display: inline-block;
+    height: 35px;
+    width: 358px;
+}
+
+#district, #district1  {
+    display: inline-block;
+    height: 35px;
+    width: 358px;
+    margin-left: 21px;
+}
+
+#ward, #ward1 {
+    display: inline-block;
+    width: 358px;
+    margin-left: 21px;
+}
+
+.address, .address1 {
+    height: 35px;
+    width: 358px;
+    margin-top:5px;
+}
+
+#addressAfter, #addressVN {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#note {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#table1 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    height: 300px;
+}
+
+#table1>tbody>tr>td:nth-child(3n+2) {
+    width: 70px;
+    text-align: center;
+}
+
+#table1>tbody>tr>td:nth-child(3n) {
+    width: 70px;
+    text-align: center;
+}
+
+#table1>tbody>tr>td:nth-child(3n+1) {
+    width: 422px;
+    padding: 10px 10px;
+}
+
+#table2 {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#table2>tbody>tr>td:nth-child(2n) {
+    width: 70px;
+    text-align: center;
+}
+
+#table2>tbody>tr>td:nth-child(3n) {
+    width: 70px;
+    text-align: center;
+}
+
+#table2>tbody>tr>td:nth-child(2n+1) {
+    padding: 10px 10px;
+}
+
+.isolationFacility {
+    color: black;
+    margin-top: 15px;
+}
+
+#table3 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#table3 tr td {
+    padding-left: 10px;
+}
+
+#table3 thead tr {
+    height: 40px;
+}
+
+#table3 thead tr td {
+    background-color: #f0f2f5;
+}
+
+#table3 tbody tr {
+    height: 55px;
+}
+
+.vaccinInfo {
+    height: 35px;
+}
+
+#addInjec {
+    width: 178px;
+    height: 28px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#addInjec:hover {
+    cursor: pointer;
+}
+
+#testInfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 58px;
+}
+
+#testInfoA {
+    float: left;
+    width: 550px;
+}
+
+#testInfoB {
+    float: right;
+    width: 550px;
+}
+
+#_testResult {
+    width: 170px;
+    display: inline-block;
+}
+
+#resultDate {
+    width: 170px;
+    display: inline-block;
+    margin-left: 15.5px;
+}
+
+#typeTest {
+    width: 170px;
+    display: inline-block;
+    margin-left: 15.5px;
+}
+
+#testResult {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.testInfo {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+}
+
+
+#nation2 {
+    height: 35px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#resultFile {
+   
+    height: 35px;
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 5px;   
+}
+
+#_nation2 {
+    float: left;
+    width: 265px;
+}
+
+#_resultFile {
+    float: right;
+    width: 265px;
+}
+
+#certification_Info {
+    height: 58px;
+}
+
+#certification_InfoA {
+    margin-top: 20px;
+    float: left;
+    width: 550px;
+}
+
+#certification_InfoB {
+    margin-top: 20px;
+    float: right;
+    width: 550px;
+}
+
+#healDay, #nation3 {
+    width: 265px;
+    float: left;
+}
+
+#facility , #fileResult1 {
+    width: 265px;
+    float: right;
+}
+
+.certification_Info {
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+    line-height: 35px;
+}
+
+#signUp, #listSim {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+li {
+    display: inline-table;
+    list-style: none;
+    margin-left: 40px;
+}
+
+#listSim ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+#capSecuCode {
+    height: 59px;
+    display: flex;
+}
+
+#redoAlt {
+    display:flex;
+    height: 59px;
+    line-height: 59px;
+ }
+
+#redo_alt {
+    align-items: center;
+    margin-left: 10px;
+    display: flex;
+}
+
+#capcha {
+    display: flex;
+}
+
+.securityCode {
+    height: 35px;
+    margin-left: 20px;
+    line-height: 59px;
+}
+
+#securityCode {
+    height: 35px;
+}
+
+#divSubmit {
+    margin-top:20px;
+    width: 100%;
+    display: flex;
+}
+
+#submit {
+    background-color: #238f14;
+    width: 130px;
+    border-radius: 25px;
+    border: 1px solid #238f14;
+    height: 50px;
+    margin: auto;
+    display: flex;  
+    cursor: pointer;
+}
+
+#send {
+    background-color: #238f14;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    align-content: center;
+    margin: auto;
+}  
+    
